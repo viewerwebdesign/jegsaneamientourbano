@@ -22,13 +22,9 @@ hr{
     margin: 5% 5% 5% 25%;
 }
 
-h2{
-    font-weight: 1000;
-}
- h5 {
-    font-size: 1.25rem;
-    color: white;
-}section-padding
+
+
+section-padding
 {
     padding: 60px 0px;
 }
@@ -80,7 +76,7 @@ h2{
 
 
 
-/*portofolio*/  
+/*CARDS CON IMAGEN GRANDE*/  
 
 
 #portfolio .portfolio-item {
@@ -185,14 +181,30 @@ h2{
     height: 8vh;
 } 
 
+h2{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;  
+    font-weight: 900;
+    font-size: 1.5;
+
+    text-align: center;
+}
+
+h5 {
+    font-size: 1.25rem;
+    color: white;
+}
+
 footer{
-    padding-top: 1%;
+    padding-top: 0.5%;
 
 }
 
 footer h2{
     color: #fff;
     font-family: 'Josefin Sans', sans-serif;
+    font-weight: 900;
+    font-size: 1.7em;
    
 }
 
@@ -204,7 +216,6 @@ SERVICIOS
 .title, .service-title
 {
     font-family: 'Fira Sans', sans-serif;
-    font-size: 35px;
     text-transform: uppercase;
 }
 .item-img
@@ -457,18 +468,8 @@ ul.service-list li i
         margin: 5px;
     }
     /*section 2 */
-    .servicios h2{
-        text-align: center;
-        ;  font-family: 'Josefin Sans', sans-serif;  
-    }
-    .sabias h2{
-        text-align: center;
-       ;font-family: 'Josefin Sans', sans-serif;  
     
-    }
-    .sabias img{
-
-    }
+    
     .sabias p{
         text-align: center;
         margin: 5px;
@@ -522,14 +523,7 @@ ul.service-list li i
         align-items: flex-start;
         background-color: #3F4A3C;
     }
-    .Contacto h2 {
-        color: #FFFFFF;
-        font-family: 'Josefin Sans', sans-serif;  
-    }
-    .h5, h5 {
-        font-size: 1.25rem;
-        color: white;
-    }
+    
 }
 
 /******************************/
@@ -592,19 +586,7 @@ ul.service-list li i
     
     }
     /*section 2 */
-    .servicios h2{
-        text-align: center;
-       ;font-family: 'Josefin Sans', sans-serif;  
     
-    }
-    .sabias h2{
-        text-align: center;
-        ;font-family: 'Josefin Sans', sans-serif;  
-    
-    }
-    .sabias img{
-
-    }
     .sabias p{
         text-align: center;
         margin: 2px;
@@ -658,14 +640,7 @@ ul.service-list li i
         align-items: flex-start;
         background-color: #3F4A3C;
     }
-    .Contacto h2 {
-        color: #FFFFFF;
-        font-family: 'Josefin Sans', sans-serif;  
-    }
-    .h5, h5 {
-        font-size: 1.25rem;
-        color: white;
-    }
+    
 }
 
 /******************************/
@@ -677,10 +652,6 @@ ul.service-list li i
         background-color: #3F4A3C;
         
     }
-
-    
-
-    
     .navbar-nav{
         width: 35%;
     }
@@ -718,19 +689,7 @@ ul.service-list li i
     
     }
     /*section 2 */
-    .servicios h2{
-        text-align: center;
-       ;font-family: 'Josefin Sans', sans-serif;  
     
-    }
-    .sabias h2{
-        text-align: center;
-        ;font-family: 'Josefin Sans', sans-serif;  
-    
-    }
-    .sabias img{
-
-    }
     .sabias p{
         text-align: center;
         margin: 2px;
@@ -785,14 +744,7 @@ ul.service-list li i
         align-items: flex-start;
         background-color: #3F4A3C;
     }
-    .Contacto h2 {
-        color: #FFFFFF;
-        font-family: 'Josefin Sans', sans-serif;  
-    }
-    .h5, h5 {
-        font-size: 1.25rem;
-        color: white;
-    }
+    
 }
 
 /*********************/
@@ -852,19 +804,7 @@ ul.service-list li i
     
     }
     /*section 2 */
-    .servicios h2{
-        text-align: center;
-     font-family: 'Josefin Sans', sans-serif;  
     
-    }
-    .sabias h2{
-        text-align: center;
-        font-family: 'Josefin Sans', sans-serif;  
-    
-    }
-    .sabias img{
-
-    }
     .sabias p{
         text-align: center;
         margin: 2px;
@@ -921,14 +861,7 @@ ul.service-list li i
         align-items: flex-start;
         background-color: #3F4A3C;
     }
-    .Contacto h2 {
-        color: #FFFFFF;
-        font-family: 'Josefin Sans', sans-serif;  
-    }
-    .h5, h5 {
-        font-size: 1.25rem;
-        color: white;
-    }
+    
 }
 
 /*********************/
@@ -979,19 +912,15 @@ ul.service-list li i
     
     }
     /*section 2 */
-    .servicios h2{
-        text-align: center;
-        font-family: 'Josefin Sans', sans-serif;  
     
-    }
-    .sabias h2{
-        text-align: center;
-      
-    font-family: 'Josefin Sans', sans-serif;  
-}
-    .sabias img{
+    #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
+        font-size: 1.1em;
+        font-family: sans-serif;
+        font-weight: 700;
+        margin-bottom: 0;
+        color: #FFFFFF;
+      }
 
-    }
     .sabias p{
         text-align: center;
         margin: 2px;font-family: 'Josefin Sans', sans-serif;  
@@ -1047,14 +976,7 @@ ul.service-list li i
         align-items: flex-start;
         background-color: #3F4A3C;
     }
-    .Contacto h2 {
-        color: #FFFFFF;
-        font-family: 'Josefin Sans', sans-serif;  
-    }
-    .h5, h5 {
-        font-size: 1.25rem;
-        color: white;
-    }
+    
 }
 
 /*********************/
@@ -1105,17 +1027,16 @@ ul.service-list li i
         margin: 10px;
     }
     /*section 2 */
-    .servicios h2{
-        text-align: center;
-       font-family: 'Josefin Sans', sans-serif;
-    }
-    .sabias h2{
-        text-align: center;
-        
-    }
-    .sabias img{
-
-    }
+    
+    #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
+        font-size: 1.3rem;
+        font-family: sans-serif;
+        font-weight: 700;
+        margin-bottom: 0;
+        color: #FFFFFF;
+      }
+     
+    
     .sabias p{
         text-align: center;
         margin: 10px;font-family: 'Josefin Sans', sans-serif;
@@ -1141,10 +1062,7 @@ ul.service-list li i
     footer h2{
         margin: 3%;
     }
-    .Contacto h2{
-        color: #FFFFFF;
-        font-family: 'Josefin Sans', sans-serif;  
-    }
+    
     .container-boton{
         background-color: #35a835fd;
         position: fixed;
@@ -1173,11 +1091,8 @@ ul.service-list li i
         align-items: flex-start;
         background-color: #3F4A3C;
     }
-    .Contacto h2 {
-        color: #FFFFFF;
-        font-family: 'Josefin Sans', sans-serif;  
-    }
-    .h5, h5 {
+    
+    h5 {
         font-size: 1.25rem;
         color: white;
     }
@@ -1232,15 +1147,24 @@ ul.service-list li i
     }
     /*section 2 */
   
+    #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
+        font-size: 1.3rem;
+        font-family: sans-serif;
+        font-weight: 700;
+        margin-bottom: 0;
+        color: #FFFFFF;
+      }
+
     .servicios h2{
         text-align: center;
-     
         font-family: 'Josefin Sans', sans-serif;  
-        
+        font-weight: 900;
+        font-size: 1.5;
     }
     .sabias h2{
         text-align: center;
          font-family: 'Josefin Sans', sans-serif;  
+
         
     }
     .sabias img{
@@ -1300,11 +1224,8 @@ ul.service-list li i
         align-items: flex-start;
         background-color:#3F4A3C;
     }
-    .h2 , h2 .Contacto {
-        color: #FFFFFF;
-        font-family: 'Josefin Sans', sans-serif;  
-    }
-    .h5, h5 {
+    
+    h5 {
         font-size: 1.25rem;
         color: white;
     }
