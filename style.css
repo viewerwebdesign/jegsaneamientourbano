@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: rgb(212, 208, 208);
+    background-color: rgb(255, 255, 255);
 }
 
 h2{
@@ -65,7 +65,7 @@ header img{
     text-shadow: gray 1px 1px 15px;
 }
 .carousel-inner{
-    box-shadow: black 1px 1px 12px;
+    box-shadow: black 1px 1px 8px;
     height: 70vh;
     
 }
@@ -74,9 +74,9 @@ header img{
 }
 
 .card{
-    border: gray solid 3px;
+    
     box-shadow: #3F4A3C 2px 2px 12px;
-    background-color: rgb(95, 87, 87);
+    
     color: white;
 }
 .card-body{
@@ -123,6 +123,7 @@ footer a:hover{
     padding: 15px;
     transition: ease 0.3s;
     animation: efecto 1.2s infinite;
+    box-shadow: 1px 1px 12px green ;
 }
 .container-boton:hover{
     transform: scale(1.1);
