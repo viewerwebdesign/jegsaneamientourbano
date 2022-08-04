@@ -76,7 +76,7 @@ header img{
 .card{
     
     box-shadow: #3F4A3C 2px 2px 12px;
-    
+    margin-top: 3%;
     color: white;
 }
 .card-body{
@@ -142,6 +142,21 @@ footer a:hover{
 }
 
 @media (min-width: 320px) and (max-width: 575px){
+
+    .container-fluid img{
+        width: 40vw;
+        height: 15vh;
+    }
+    .carousel-inner{
+        box-shadow: black 1px 1px 12px;
+        height: 40vh;
+    }
+    .carousel-inner img{
+        height: 40vh;
+    }
+
+}
+@media (min-width: 576px) and (max-width: 768px){
 
     .container-fluid img{
         width: 40vw;
